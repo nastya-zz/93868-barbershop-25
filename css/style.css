@@ -269,11 +269,23 @@ a {
 }
 
 .page-title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+
+  min-height: 42px;
+
   font-size: 30px;
   line-height: 42px;
 }
 
 .breadcrumbs{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+
+  min-height: 24px;
+
   list-style: none;
 }
 
@@ -289,6 +301,13 @@ a {
 .breadcrumbs-current {
   color: #aba9a7;
 }
+
+.filtres {
+  width: 180px;
+
+  min-height: 687px;
+}
+
 
 .filter fieldset {
   border: none;
