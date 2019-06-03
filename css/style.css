@@ -26,6 +26,10 @@ body  {
  background-repeat: no-repeat;
 }
 
+body > *,
+body > * > * {
+  background-color: rgba(255, 55, 0, 0.5);
+}
 
 .inner-page {
   color: #000000;
@@ -36,8 +40,36 @@ body  {
   background-repeat: repeat;
 }
 
+.inner-page .main-header {
+  margin-bottom: 50px;
+
+  background-color: #000000;
+
+  min-height: 70px;
+}
+
+.inner-page .main-navigation {
+  align-items: flex-start;
+  flex-direction: row;
+
+  min-height: 70px;
+
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+
+  width: 111px;
+  height: 24px;
+  padding: 23px 20px;
+}
+
 a {
   text-decoration: none;
+}
+
+.inner-page .user-navigation {
+  margin-left: auto;
 }
 
 .button {
@@ -75,7 +107,7 @@ a {
   width: 368px;
   height: 153px;
 
-  
+
 }
 
 .main-navigation {
@@ -400,7 +432,7 @@ a {
 
 .main-footer .container {
   display: flex;
-  
+
 }
 
 .footer-contacts {
